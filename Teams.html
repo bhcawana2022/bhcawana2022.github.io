@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHC AWANA Accounts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<section class="sub-headert">
+    <nav>
+        <a href="index.html"><img src="Logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT US</a></li>
+                <li><a href="Accounts.html">ACCOUNTS</a></li>
+                <li><a href="Teams.html">TEAMS</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Teams</h1>
+</section>
+<section class="teams">
+    <h1>AWANA Teams</h1>
+    <p>AWANA consists of 4 color teams: Blue, Red, Green, and Yellow.</p>
+
+    <div class="row">
+        <div class="team-col">
+            <img src="2.png">
+            <a href="bteam.html" class="layer-1">
+                <h3>BLUE WHALE</h3>
+            </a>
+        </div>
+        <div class="team-col">
+            <img src="4.png">
+            <a href="rteam.html" class="layer-2">
+                <h3>RED STALLION</h3>
+            </a>
+        </div>
+        <div class="team-col">
+            <img src="1.png">
+            <a href="gteam.html" class="layer-3">
+                <h3>GREEN RAVEN</h3>
+            </a>
+        </div>
+        <div class="team-col">
+            <img src="3.png">
+            <a href="yteam.html" class="layer-4">
+                <h3>YELLOW LION</h3>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h5>About Us</h5>
+    <p>Approved Workmen Are Not Ashamed</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-telegram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Kharece Treasure Escalante</p>
+ </section>
+
+<!-------Toggle Menu--------->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>

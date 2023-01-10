@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHC AWANA Accounts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="Logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT US</a></li>
+                <li><a href="Accounts.html">ACCOUNTS</a></li>
+                <li><a href="Teams.html">TEAMS</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>Approved Workmen Are Not Ashamed</h1>
+            <p>AWANA is an acronym for the statement "Approved Workmen Are Not Ashamed" inspired by the Bible Verse found in 2 Timothy 2:15, which states, " Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth." This ministry was adapted by Baras Happy Church early 2018. The ministry, then, stopped due to lack of manpower and issues revolving around the community. Baras Youth decided to rebuilt the ministry again, from scratch, last April 2022.</p>
+            <a href="Teams.html" class="btn a-btn">EXPLORE TEAMS</a>
+        </div>
+        <div class="about-col">
+            <img src="about-us.jpg">
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <h5>About Us</h5>
+    <p>Approved Workmen Are Not Ashamed</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-telegram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Kharece Treasure Escalante</p>
+ </section>
+
+<!-------Toggle Menu--------->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
