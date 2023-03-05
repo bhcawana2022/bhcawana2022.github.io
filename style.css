@@ -961,6 +961,18 @@ h7{
     display: flex;
     justify-content: space-between;
 }
+.pts2{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.pts3{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 h8{
     position: absolute;
@@ -1004,6 +1016,16 @@ c{
         justify-content: space-around;
     }
     .pts1{
+        margin-top: 1%;
+        display: grid;
+        justify-content: space-around ;
+    }
+     .pts2{
+        margin-top: 1%;
+        display: grid;
+        justify-content: space-around ;
+    }
+     .pts3{
         margin-top: 1%;
         display: grid;
         justify-content: space-around ;
